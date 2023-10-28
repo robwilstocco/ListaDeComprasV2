@@ -189,6 +189,7 @@ function App() {
           showLabels
           value={aba}
           onChange={(event, newValue) => {
+            event
             setAba(newValue);
           }}
         >

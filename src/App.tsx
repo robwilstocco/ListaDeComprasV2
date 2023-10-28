@@ -167,7 +167,7 @@ function App() {
             className={`content__card${aba === 0 ? " hidden" : ""}`}
           >
             <h2 className="content__card__titulo">Lista de Itens</h2>
-            <Box sx={{ height: 400, width: "100%" }}>
+            <Box sx={{ height: '320px', width: "100%" }}>
               <DataGrid
                 rows={listaDeCompras}
                 columns={columns}

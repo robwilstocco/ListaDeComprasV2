@@ -15,8 +15,8 @@ import {
 } from "@mui/material";
 
 function App() {
-
-  const itens = JSON.parse(localStorage.getItem('lista') || '[]');
+  
+  const itens: IListaDeCompras[] = JSON.parse(localStorage.getItem('lista') as string);
   const [descricao, setDescricao] = useState<string>("");
   const [quantidade, setQuantidade] = useState<string>("");
   const [listaDeCompras, setListaDeCompras] = useState<IListaDeCompras[]>(itens);
@@ -68,7 +68,7 @@ function App() {
       return;
     }
 
-    let item = {
+    let item: IListaDeCompras = {
       id: 0,
       descricao: descricao,
       quantidade: quantidade

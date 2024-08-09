@@ -1,0 +1,74 @@
+{
+  "hash": "71463cff",
+  "browserHash": "ba776f7c",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "80479055",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "c74686e1",
+      "needsInterop": true
+    },
+    "@mui/material/styles": {
+      "src": "../../node_modules/@mui/material/styles/index.js",
+      "file": "@mui_material_styles.js",
+      "fileHash": "f574bfdf",
+      "needsInterop": false
+    },
+    "@mui/icons-material": {
+      "src": "../../node_modules/@mui/icons-material/esm/index.js",
+      "file": "@mui_icons-material.js",
+      "fileHash": "6ddbee52",
+      "needsInterop": false
+    },
+    "@mui/x-data-grid": {
+      "src": "../../node_modules/@mui/x-data-grid/index.js",
+      "file": "@mui_x-data-grid.js",
+      "fileHash": "d5e179e5",
+      "needsInterop": false
+    },
+    "@mui/material": {
+      "src": "../../node_modules/@mui/material/index.js",
+      "file": "@mui_material.js",
+      "fileHash": "2bbe0259",
+      "needsInterop": false
+    },
+    "@mui/material/locale": {
+      "src": "../../node_modules/@mui/material/locale/index.js",
+      "file": "@mui_material_locale.js",
+      "fileHash": "77bdf658",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-3PAQ3G5N": {
+      "file": "chunk-3PAQ3G5N.js"
+    },
+    "chunk-MKG3NT3Y": {
+      "file": "chunk-MKG3NT3Y.js"
+    },
+    "chunk-JJ2IIDWM": {
+      "file": "chunk-JJ2IIDWM.js"
+    },
+    "chunk-AH5S2M6R": {
+      "file": "chunk-AH5S2M6R.js"
+    },
+    "chunk-TGUBUBFA": {
+      "file": "chunk-TGUBUBFA.js"
+    },
+    "chunk-67XTWVEJ": {
+      "file": "chunk-67XTWVEJ.js"
+    },
+    "chunk-NVKICINY": {
+      "file": "chunk-NVKICINY.js"
+    },
+    "chunk-5WWUZCGV": {
+      "file": "chunk-5WWUZCGV.js"
+    }
+  }
+}

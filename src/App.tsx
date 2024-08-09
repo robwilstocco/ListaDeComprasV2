@@ -19,7 +19,7 @@ function App() {
   const itens: IListaDeCompras[] = JSON.parse(localStorage.getItem('lista') as string);
   const [descricao, setDescricao] = useState<string>("");
   const [quantidade, setQuantidade] = useState<string>("");
-  const [listaDeCompras, setListaDeCompras] = useState<IListaDeCompras[]>(itens);
+  const [listaDeCompras, setListaDeCompras] = useState<IListaDeCompras[]>(itens || []);
   const [idsSelecionados, setIdsSelecionados] = useState<GridRowId[]>([]);
   const [validaDescricao, setValidaDescricao] = useState<boolean>(false);
   const [validaQuantidade, setValidaQuantidade] = useState<boolean>(false);

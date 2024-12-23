@@ -1,27 +1,37 @@
-# React + TypeScript + Vite
+# PokeCards
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<div style="display: inline_block">
+  <img src="https://img.shields.io/badge/React.js-navy?logo=react"/>
+  <img src="https://img.shields.io/badge/Typescript-gray?logo=typescript"/>
+</div>
 
-Currently, two official plugins are available:
+## Descrição
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p>Esta é uma aplicação que permite o gerenciamento de lista de compras, onde as informações são guardadas no localStorage</p>
+  <img src="https://github.com/robwilstocco/ListaDeComprasV2/blob/main/src/assets/demo.png"/>
+<a href="https://robwilstocco.github.io/ListaDeComprasV2/">Você pode visualizar o projeto no ar clicando aqui</a>
 
-## Expanding the ESLint configuration
+<h2>:grinning: Como utilizar</h2>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<h3>1. Clone o repositório:</h3>
+<pre>
+  <code>
+    git clone https://github.com/robwilstocco/ListaDeComprasV2.git
+  </code>
+</pre>
 
-- Configure the top-level `parserOptions` property like this:
+<h3>2. Entre no repositório clonado e instale as dependências:</h3>
+<pre>
+  <code>
+    npm install
+  </code>
+</pre>
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+<h3>3. Inicie o servidor a aplicação: </h3>
+<pre>
+  <code>
+    npm run dev
+  </code>
+</pre>
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<p>A aplicação já estará pronta para ser utilizada </p>
